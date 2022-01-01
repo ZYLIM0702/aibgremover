@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI BG REMOVER</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.57">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript">
+function myFunction() { Android.showAdFromJs(); };
+</script>
+
+<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<style>
+ 
+        /* Set display to none for image*/
+        #image {
+            display: none;
+        }
+    </style>
+  </head>
+
+  <body oncontextmenu="return false;">
+    <div class="header">
+      <img src="logo.png" style="width:80px; float: left; padding-left:10px;"></img>
+      <a href=" " class="logo">AI BG REMOVER</a>
+      <div class="header-right">
+        <a href="" style="font-size:25px; padding-left:10px;font-weight: bold;"></a>
+      </div>
+    </div>
+    <div id="app"></div>
+
+    <h2>AI BG REMOVER - FREE</h2>
+    <p>
+      Remove your image backgroud with no image size limit*
+    </p>
+
+<div class="center">
+  <button class="refresh" onClick="window.location.href=window.location.href">NEW IMAGE</button>
+</div>
+
+<div class="center">
+<div id="sa">
+  <form id="file-upload-form" class="uploader">
+    <input id="file-upload" type="file" name="fileUpload" accept="image/*" onclick="move()"/>
+  
+    <label for="file-upload" id="file-drag">
+      <img id="file-image" src="#" alt="Preview" class="hidden" style=" border-radius: 7px; box-shadow: grey 3px 4px 8px;" >
+      <div id="start" class="start">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        <div><p> </p><img src="icon.png" style="width:270px;opacity:30%;"></img><p class="centerr" style="font-size:30px;">Select a file or drag here</p></div>
+  <p> </p>
+        <div id="notimage" class="hidden">Please select an image</div>
+        <span id="file-upload-btn" class="btn btn-primary centerr">Select a file</span>
+      </div>
+      <div id="response" class="hidden">
+        <div id="messages"></div>
+        <div id="myProgress">
+    <div id="myBar" ></div>
+  </div>
+      </div>
+    </label>
+  </form>
+</div>
+</div>
+
+<div class="comparedResult" id="comparedResult">
+  <div class="wrapper" id="wrapper">
+    <div class="before">
+      <div id="result" class="content-image centerx"  draggable="false"/>   </div>
+    <div class="after">
+      <img id="after" class="centerx" draggable="false"/>
+    </div>
+    <div class="scroller" >
+      <img src="arrow.png" width="40" height="40" ></img>
+    </div>
+  </div>
+</div>
+
+<div class="btnDiv" id="absc">
+  <button id="btnID" class="centerss" onclick="clickPopOut()">PROCESS</button>
+</div>
+
+
+
+<script>
+  
+  function clickPopOut() {
+    const myTimeout = setTimeout(show, 1000);
+    Android.showAdFromJs();
+  }
+
+    function show() {
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('sa')
+        .style.display= "none";
+        document.getElementById('wrapper')
+        .style.width= "500px";
+        document.getElementById('wrapper')
+        .style.height= "500px";
+        document.getElementById('wrapper')
+        .style.display= "inline-flex";
+    }
+
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+<script type="module" src="https://blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
