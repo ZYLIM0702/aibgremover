@@ -61,7 +61,7 @@ var saveImg = document.createElement("a");
 saveImg.setAttribute('id', 'downss');     // New link we use to save it with
 saveImg.classList.add('buttonss');
 saveImg.style.width ="570px";    // Assign image src to our link target
-saveImg.download = "Ai Background removed.png";
+saveImg.download = "Ai Background removed_" + new Date().getTime() + ".png";
 saveImg.innerHTML = "CLICK TO DOWNLOAD IMAGE";       // Set link text
 document.body.appendChild(saveImg);   
 document.getElementById("downss").onclick = function() {clickdownload()};
