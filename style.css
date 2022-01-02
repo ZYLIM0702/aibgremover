@@ -63,6 +63,10 @@ input:focus {
 html, body, * {
   box-sizing: border-box;
   font-size: 16px;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
 }
 
 html, body {
@@ -85,6 +89,12 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #5f6982;
+}
+.ces {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
 }
 
 .uploader {
@@ -280,6 +290,19 @@ p {
   border: none;
   color: white;
   padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.refreshs {
+  background-color: #cd67ff; /* Green */
+  border: none;
+  color: white;
+  padding: 25px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -491,3 +514,52 @@ white-space: nowrap;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+
+
+
+.navbar {
+  display: none;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #3a3a3a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 45px;
+  padding-top: 25px;
+  
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #cd67ff;
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+.navbars {
+width: 33.3333%;
+height: 100px;
+
+}

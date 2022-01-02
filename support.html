@@ -45,10 +45,10 @@ function myFunction() { Android.showAdFromJs(); };
       <img src="logo.png" style="width:80px; float: left; padding-left:10px;"></img>
       <a href=" " class="logo">AI BG REMOVER</a>
       <div class="header-right">
-        <button id="image-editor-btn" class="refreshs" >Open Image Editor</button>
+        <button id="image-editor-btn" class="refresh" >Open Image Editor</button>
 
         <script src="https://cdn.scaleflex.it/plugins/filerobot-image-editor/3.12.17/filerobot-image-editor.min.js"></script>
-
+        <script src="src/index.js"></script>
         <a href="" style="font-size:25px; padding-left:10px;font-weight: bold;"></a>
       </div>
     </div>
@@ -70,7 +70,7 @@ function myFunction() { Android.showAdFromJs(); };
     <input id="file-upload" type="file" name="fileUpload" accept="image/*" onclick="move()"/>
   
     <label for="file-upload" id="file-drag">
-      <img id="file-image" src="a" alt="Preview" class="hidden" style=" border-radius: 7px; box-shadow: grey 3px 4px 8px;" >
+      <img id="file-image" src="#" alt="Preview" class="hidden" style=" border-radius: 7px; box-shadow: grey 3px 4px 8px;" >
       <div id="start" class="start">
         <i class="fa fa-download" aria-hidden="true"></i>
         <div><p> </p><img src="icon.png" style="width:270px;opacity:30%;"></img><p class="centerr" style="font-size:30px;">Select a file or drag here</p></div>
@@ -107,17 +107,16 @@ function myFunction() { Android.showAdFromJs(); };
 </div>
 
 <div class="navbar ">
-  <a href="index" class="active navbars">Home</a>
+  <a href="index" class="navbars">Home</a>
   <a href="editor" class="navbars">Editor</a>
-  <a href="support" class="navbars">Support</a>
+  <a href="support" class="active navbars">Support</a>
 </div>
 
 <script>
   
   function clickPopOut() {
-      const myTimeout = setTimeout(show, 1000);
-      Android.showAdFromJs();
-
+    const myTimeout = setTimeout(show, 1000);
+    Android.showAdFromJs();
   }
 
     function show() {
@@ -138,6 +137,7 @@ function myFunction() { Android.showAdFromJs(); };
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
 <script type="module" src="https://blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
+<script src="google.js"></script>
     <script src="index.js"></script>
     <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
 
