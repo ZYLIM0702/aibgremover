@@ -1,1 +1,93 @@
-function _0x3078(_0x3d5391,_0x19b6a1){var _0x2aff0b=_0x2aff();return _0x3078=function(_0x3078c1,_0x18df59){_0x3078c1=_0x3078c1-0x153;var _0x5c5ff7=_0x2aff0b[_0x3078c1];return _0x5c5ff7;},_0x3078(_0x3d5391,_0x19b6a1);}var _0x4831aa=_0x3078;(function(_0x15e3fe,_0x29e0df){var _0x1e3073=_0x3078,_0x9995f6=_0x15e3fe();while(!![]){try{var _0x4fa276=-parseInt(_0x1e3073(0x16b))/0x1*(-parseInt(_0x1e3073(0x166))/0x2)+parseInt(_0x1e3073(0x15f))/0x3*(-parseInt(_0x1e3073(0x155))/0x4)+parseInt(_0x1e3073(0x184))/0x5*(-parseInt(_0x1e3073(0x15e))/0x6)+parseInt(_0x1e3073(0x161))/0x7+parseInt(_0x1e3073(0x171))/0x8*(parseInt(_0x1e3073(0x172))/0x9)+parseInt(_0x1e3073(0x164))/0xa*(-parseInt(_0x1e3073(0x160))/0xb)+-parseInt(_0x1e3073(0x153))/0xc*(-parseInt(_0x1e3073(0x178))/0xd);if(_0x4fa276===_0x29e0df)break;else _0x9995f6['push'](_0x9995f6['shift']());}catch(_0x39c6f4){_0x9995f6['push'](_0x9995f6['shift']());}}}(_0x2aff,0x3d465));var myArray=['55abd9a523296eeeb3f6e52d7a515670239cabd5','a18148efaa09b1e74f7c8d83c93e8c5948853aef',_0x4831aa(0x165),_0x4831aa(0x158),_0x4831aa(0x16c),_0x4831aa(0x169)],rand=myArray[Math['random']()*myArray[_0x4831aa(0x17c)]|0x0];function _0x2aff(){var _0x4ad0a7=['291448wolgiu','99oKpJaz','body','getElementById','saveImg','appendChild','#result','13riNnvF','createObjectURL','change','img','length','input[type=file]','showAdFromJs','getTime','onloadend','blob','downloading','CLICK\x20TO\x20DOWNLOAD\x20IMAGE','115pWFJUk','.png','downss','5443608jIcnKw','createElement','4oscKIu','result','content-image','b5cd341e8cf1460e7d38c92c406965a262ec7078','image','addEventListener','bunss','add','FilerobotImageEditor','107100ANXtYW','734994GcDYPQ','5304046vxidgR','466018XReQpg','toBlob','querySelector','10KJSyPU','8aeed560d0f202f6e85f45dd170c609aa87d9792','52JnctfF','classList','width','25dc38f697776dede763399514f13f274571d614','src','17991AVklxd','b82799bea2a66099d4f6714e69162f1197352dbc','setAttribute','toString','https://sdk.photoroom.com/v1/segment','image_file'];_0x2aff=function(){return _0x4ad0a7;};return _0x2aff();}document[_0x4831aa(0x163)](_0x4831aa(0x17d))['addEventListener'](_0x4831aa(0x17a),async function(){var _0x2cf2f2=_0x4831aa;const _0x55d824=await loadImage(this['files'][0x0],{'maxWidth':0x7530,'maxHeight':0x7530,'canvas':!![]});_0x55d824[_0x2cf2f2(0x159)][_0x2cf2f2(0x162)](async function(_0x4c875a){var _0x35fb39=_0x2cf2f2;const _0x46dffa=new FormData();_0x46dffa['append'](_0x35fb39(0x170),_0x4c875a);const _0x3d98ba=await fetch(_0x35fb39(0x16f),{'method':'POST','headers':{'x-api-key':rand},'body':_0x46dffa});var _0x246c7f=await _0x3d98ba[_0x35fb39(0x181)](),_0x37e8da=document[_0x35fb39(0x154)]('img');document[_0x35fb39(0x163)](_0x35fb39(0x177))['appendChild'](_0x37e8da),_0x37e8da[_0x35fb39(0x16d)]('id',_0x35fb39(0x15b)),_0x37e8da[_0x35fb39(0x167)][_0x35fb39(0x15c)](_0x35fb39(0x157)),_0x37e8da[_0x35fb39(0x16a)]=URL[_0x35fb39(0x179)](_0x246c7f);const _0x510d73=new FileReader();_0x510d73['readAsDataURL'](_0x246c7f),_0x510d73[_0x35fb39(0x180)]=function(){var _0x3bc5bb=_0x35fb39,_0x2bb98d=_0x510d73[_0x3bc5bb(0x156)];_0x510d73['src']=_0x2bb98d[_0x3bc5bb(0x16e)](),_0x1564d0['href']=_0x510d73[_0x3bc5bb(0x16a)];};function _0x305e3c(){var _0x4e9b00=_0x35fb39;document[_0x4e9b00(0x174)](_0x4e9b00(0x175)),Android[_0x4e9b00(0x182)]();}var _0x15cd7a=document[_0x35fb39(0x163)](_0x35fb39(0x17b)),_0x1564d0=document[_0x35fb39(0x154)]('a');_0x1564d0[_0x35fb39(0x16d)]('id',_0x35fb39(0x186)),_0x1564d0[_0x35fb39(0x167)]['add']('buttonss'),_0x1564d0['style'][_0x35fb39(0x168)]='570px',_0x1564d0['download']='Ai\x20Background\x20removed_'+new Date()[_0x35fb39(0x17f)]()+_0x35fb39(0x185),_0x1564d0['innerHTML']=_0x35fb39(0x183),document[_0x35fb39(0x173)][_0x35fb39(0x176)](_0x1564d0),document[_0x35fb39(0x174)](_0x35fb39(0x186))['onclick']=function(){_0x305e3c();};});});const ImageEditor=new window[(_0x4831aa(0x15d))](),Button=document[_0x4831aa(0x174)]('image-editor-btn');Button[_0x4831aa(0x15a)]('click',function(){var _0x1e2007=_0x4831aa;const _0x1424e6=document[_0x1e2007(0x174)]('bunss')['src'];ImageEditor['open'](_0x1424e6),Android[_0x1e2007(0x17e)]();});
+var myArray = ['55abd9a523296eeeb3f6e52d7a515670239cabd5', 'a18148efaa09b1e74f7c8d83c93e8c5948853aef','8aeed560d0f202f6e85f45dd170c609aa87d9792', 'b5cd341e8cf1460e7d38c92c406965a262ec7078', 'b82799bea2a66099d4f6714e69162f1197352dbc','25dc38f697776dede763399514f13f274571d614']; 
+var rand = myArray[(Math.random() * myArray.length) | 0]
+
+
+
+document
+  .querySelector("input[type=file]")
+  .addEventListener("change", async function () {
+    const resizedImage = await loadImage(this.files[0], {
+      // resize before sending to PhotoRoom for performance
+      maxWidth: 30000,
+      maxHeight: 30000,
+      canvas: true
+
+    
+    });
+
+    
+
+    resizedImage.image.toBlob(async function (inputBlob) {
+      const formData = new FormData();
+      formData.append("image_file", inputBlob);
+
+      const response = await fetch("https://sdk.photoroom.com/v1/segment", {
+        method: "POST",
+        headers: {
+          "x-api-key": rand
+        },
+        body: formData
+      });
+
+
+      // https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api#example_fetching_images
+      var outputBlob = await response.blob();
+      var outputImage = document.createElement("img");
+      document.querySelector("#result").appendChild(outputImage);
+      outputImage.setAttribute('id', 'bunss');
+      outputImage.classList.add('content-image');
+      outputImage.src = URL.createObjectURL(outputBlob);
+
+
+const reader = new FileReader();
+reader.readAsDataURL(outputBlob); 
+reader.onloadend = function() {
+  var base64data = reader.result; 
+  reader.src = base64data.toString();
+   saveImg.href = reader.src ;  
+   document.getElementById("dones").src = saveImg.href ;  
+}
+
+
+function clickdownload() {
+ 
+            document.getElementById('saveImg');
+	    Android.downloading();
+            
+        }
+
+
+
+var image = document.querySelector('img'); // Image you want to save
+var saveImg = document.createElement("a");
+saveImg.setAttribute('id', 'downss');     // New link we use to save it with
+saveImg.classList.add('buttonss');
+saveImg.style.width ="570px";    // Assign image src to our link target
+saveImg.download = "Ai Background removed_" + new Date().getTime() + ".png";
+saveImg.innerHTML = "CLICK TO DOWNLOAD IMAGE";       // Set link text
+document.body.appendChild(saveImg);   
+document.getElementById("downss").onclick = function() {clickdownload()};
+});
+});
+
+var beforeimage = document.querySelector("input[type=file]");
+
+async function uploadFiles() {
+  let formData = new FormData(); 
+  formData.append("file",beforeimage.files[0] );
+  await fetch('/upload.php', {
+    method: "POST", 
+    body: formData
+  }); 
+  
+  }
+
+
+const ImageEditor = new window.FilerobotImageEditor();
+const Button = document.getElementById("image-editor-btn");
+
+Button.addEventListener("click", function() {
+  const ids = document.getElementById("bunss").src;
+  ImageEditor.open(ids);
+  Android.showAdFromJs();
+});

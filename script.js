@@ -1,1 +1,221 @@
-var _0x45fbe6=_0x3029;(function(_0x396b19,_0x52ab83){var _0x5d679f=_0x3029,_0x478e69=_0x396b19();while(!![]){try{var _0x47e4a5=-parseInt(_0x5d679f(0x187))/0x1+parseInt(_0x5d679f(0x17b))/0x2*(parseInt(_0x5d679f(0x13e))/0x3)+parseInt(_0x5d679f(0x16f))/0x4+parseInt(_0x5d679f(0x161))/0x5*(-parseInt(_0x5d679f(0x181))/0x6)+parseInt(_0x5d679f(0x175))/0x7+parseInt(_0x5d679f(0x149))/0x8+parseInt(_0x5d679f(0x16c))/0x9*(-parseInt(_0x5d679f(0x172))/0xa);if(_0x47e4a5===_0x52ab83)break;else _0x478e69['push'](_0x478e69['shift']());}catch(_0x16bba0){_0x478e69['push'](_0x478e69['shift']());}}}(_0x31e4,0x8493b));function _0x3029(_0x2c9065,_0x21a991){var _0x31e4b7=_0x31e4();return _0x3029=function(_0x302972,_0x316744){_0x302972=_0x302972-0x13e;var _0x1d78ec=_0x31e4b7[_0x302972];return _0x1d78ec;},_0x3029(_0x2c9065,_0x21a991);}function ekUpload(){var _0x1d85df=_0x3029;function _0x4c5c65(){var _0x35e070=_0x3029,_0x364992=document[_0x35e070(0x18c)](_0x35e070(0x147)),_0x39a5d6=document[_0x35e070(0x18c)]('file-drag'),_0x32b0e4=document[_0x35e070(0x18c)](_0x35e070(0x141));_0x364992[_0x35e070(0x14a)](_0x35e070(0x155),_0x14219f,![]);var _0x2ae1e4=new XMLHttpRequest();_0x2ae1e4[_0x35e070(0x15e)]&&(_0x39a5d6[_0x35e070(0x14a)](_0x35e070(0x14c),_0x5ab4b1,![]),_0x39a5d6[_0x35e070(0x14a)](_0x35e070(0x185),_0x5ab4b1,![]),_0x39a5d6[_0x35e070(0x14a)](_0x35e070(0x16b),_0x14219f,![]));}function _0x5ab4b1(_0x5abb48){var _0x577833=_0x3029,_0x76b715=document[_0x577833(0x18c)](_0x577833(0x142));_0x5abb48[_0x577833(0x15b)](),_0x5abb48['preventDefault'](),_0x76b715[_0x577833(0x163)]=_0x5abb48[_0x577833(0x17e)]==='dragover'?'hover':'modal-body\x20file-upload';}function _0x14219f(_0x2475c6){var _0xe65254=_0x3029,_0x548008=_0x2475c6['target']['files']||_0x2475c6[_0xe65254(0x14e)][_0xe65254(0x189)];_0x5ab4b1(_0x2475c6);for(var _0x185920=0x0,_0x5a05be;_0x5a05be=_0x548008[_0x185920];_0x185920++){_0x411265(_0x5a05be),_0x290cd2(_0x5a05be);}}function _0x3f0d0d(_0x8efbba){var _0x1be58b=_0x3029,_0x4e79f5=document['getElementById']('messages');_0x4e79f5[_0x1be58b(0x158)]=_0x8efbba;}function _0x411265(_0x1a102a){var _0x20c7f2=_0x3029;_0x3f0d0d(_0x20c7f2(0x144)+encodeURI(_0x1a102a[_0x20c7f2(0x168)])+_0x20c7f2(0x152));var _0x27976f=_0x1a102a[_0x20c7f2(0x168)],_0x124ebd=/\.(?=gif|jpg|png|jpeg)/gi[_0x20c7f2(0x18d)](_0x27976f);_0x124ebd?(document['getElementById'](_0x20c7f2(0x162))[_0x20c7f2(0x188)][_0x20c7f2(0x145)]('hidden'),document[_0x20c7f2(0x18c)](_0x20c7f2(0x18f))[_0x20c7f2(0x188)][_0x20c7f2(0x14d)]('hidden'),document[_0x20c7f2(0x18c)](_0x20c7f2(0x165))[_0x20c7f2(0x188)][_0x20c7f2(0x145)](_0x20c7f2(0x18e)),document['getElementById'](_0x20c7f2(0x14b))[_0x20c7f2(0x188)][_0x20c7f2(0x14d)]('hidden'),document[_0x20c7f2(0x18c)](_0x20c7f2(0x14b))[_0x20c7f2(0x180)]=URL[_0x20c7f2(0x183)](_0x1a102a),document[_0x20c7f2(0x18c)](_0x20c7f2(0x140))[_0x20c7f2(0x180)]=document[_0x20c7f2(0x18c)]('file-image')['src'],document[_0x20c7f2(0x18c)](_0x20c7f2(0x140))['style'][_0x20c7f2(0x164)]=_0x20c7f2(0x151),document[_0x20c7f2(0x18c)]('after')[_0x20c7f2(0x150)][_0x20c7f2(0x15f)]='500px'):(document['getElementById']('file-image')[_0x20c7f2(0x188)][_0x20c7f2(0x145)]('hidden'),document[_0x20c7f2(0x18c)](_0x20c7f2(0x165))[_0x20c7f2(0x188)][_0x20c7f2(0x14d)](_0x20c7f2(0x18e)),document['getElementById']('start')['classList'][_0x20c7f2(0x14d)](_0x20c7f2(0x18e)),document['getElementById'](_0x20c7f2(0x18f))['classList'][_0x20c7f2(0x145)](_0x20c7f2(0x18e)),document[_0x20c7f2(0x18c)]('file-upload-form')[_0x20c7f2(0x174)]());}function _0x290cd2(_0x40c933){var _0x573ed1=_0x3029,_0x3ba6e9=new XMLHttpRequest(),_0x52007f=document[_0x573ed1(0x18c)](_0x573ed1(0x147)),_0x111b56=document['getElementById'](_0x573ed1(0x173)),_0x14277c=0x3e8;_0x3ba6e9['upload']&&(_0x40c933[_0x573ed1(0x15c)]<=_0x14277c*0x2710*0x2710?(_0x3ba6e9['onreadystatechange']=function(_0x33d458){var _0x22a7f2=_0x573ed1;if(_0x3ba6e9[_0x22a7f2(0x17d)]==0x4){}},_0x3ba6e9[_0x573ed1(0x143)](_0x573ed1(0x16d),document['getElementById'](_0x573ed1(0x146))[_0x573ed1(0x178)],!![]),_0x3ba6e9[_0x573ed1(0x159)](_0x573ed1(0x17a),_0x40c933[_0x573ed1(0x168)]),_0x3ba6e9[_0x573ed1(0x159)](_0x573ed1(0x186),_0x40c933['size']),_0x3ba6e9['setRequestHeader'](_0x573ed1(0x15d),_0x573ed1(0x13f)),_0x3ba6e9[_0x573ed1(0x160)](_0x40c933)):_0x3f0d0d('Please\x20upload\x20a\x20smaller\x20file\x20(<\x20'+_0x14277c+_0x573ed1(0x177)));}window[_0x1d85df(0x18a)]&&window['FileList']&&window[_0x1d85df(0x169)]?_0x4c5c65():document[_0x1d85df(0x18c)](_0x1d85df(0x142))[_0x1d85df(0x150)][_0x1d85df(0x15a)]='none';}ekUpload();var i=0x0;function move(){var _0xdbbc06=_0x3029;if(i==0x0){i=0x1;var _0x38513a=document[_0xdbbc06(0x18c)]('myBar'),_0x5a6b56=0x1,_0x581e6c=setInterval(_0x329851,0x1e);function _0x329851(){var _0x6c7812=_0xdbbc06;_0x5a6b56>=0x64?(clearInterval(_0x581e6c),i=0x0):(_0x5a6b56++,_0x38513a[_0x6c7812(0x150)][_0x6c7812(0x170)]=_0x5a6b56+'%');}}}let active=![];document[_0x45fbe6(0x14f)]('.scroller')[_0x45fbe6(0x14a)](_0x45fbe6(0x16e),function(){var _0x410a84=_0x45fbe6;active=!![],document['querySelector']('.scroller')[_0x410a84(0x188)][_0x410a84(0x145)]('scrolling');}),document[_0x45fbe6(0x18b)]['addEventListener'](_0x45fbe6(0x167),function(){var _0x3751b2=_0x45fbe6;active=!![],document[_0x3751b2(0x14f)](_0x3751b2(0x148))[_0x3751b2(0x188)][_0x3751b2(0x14d)]('scrolling');}),document[_0x45fbe6(0x18b)][_0x45fbe6(0x14a)](_0x45fbe6(0x17f),function(){var _0x5bd01e=_0x45fbe6;active=!![],document[_0x5bd01e(0x14f)](_0x5bd01e(0x148))['classList'][_0x5bd01e(0x14d)](_0x5bd01e(0x16a));}),document[_0x45fbe6(0x18b)][_0x45fbe6(0x14a)](_0x45fbe6(0x179),function(_0x3bf609){var _0x1282c8=_0x45fbe6;if(!active)return;let _0x7e0985=_0x3bf609[_0x1282c8(0x157)];_0x7e0985-=document[_0x1282c8(0x14f)](_0x1282c8(0x156))[_0x1282c8(0x17c)]()[_0x1282c8(0x154)],scrollIt(_0x7e0985);});function scrollIt(_0x2fa618){var _0x33aba6=_0x45fbe6;let _0x2a29ce=Math[_0x33aba6(0x184)](0x0,Math[_0x33aba6(0x171)](_0x2fa618,document[_0x33aba6(0x14f)](_0x33aba6(0x156))[_0x33aba6(0x182)]));document[_0x33aba6(0x14f)](_0x33aba6(0x166))[_0x33aba6(0x150)][_0x33aba6(0x170)]=_0x2a29ce+'px',document[_0x33aba6(0x14f)]('.scroller')[_0x33aba6(0x150)][_0x33aba6(0x154)]=_0x2a29ce-0x19+'px';}scrollIt(0x96),document[_0x45fbe6(0x14f)]('.scroller')[_0x45fbe6(0x14a)](_0x45fbe6(0x153),function(){var _0x4103a8=_0x45fbe6;active=!![],document[_0x4103a8(0x14f)](_0x4103a8(0x148))[_0x4103a8(0x188)][_0x4103a8(0x145)](_0x4103a8(0x16a));}),document[_0x45fbe6(0x14f)](_0x45fbe6(0x148))[_0x45fbe6(0x14a)]('touchend',function(){var _0x24121e=_0x45fbe6;active=!![],document[_0x24121e(0x14f)](_0x24121e(0x148))[_0x24121e(0x188)][_0x24121e(0x145)](_0x24121e(0x16a));}),document[_0x45fbe6(0x14f)]('.scroller')[_0x45fbe6(0x14a)](_0x45fbe6(0x176),function(){var _0x569d6f=_0x45fbe6;active=!![],document[_0x569d6f(0x14f)](_0x569d6f(0x148))[_0x569d6f(0x188)][_0x569d6f(0x145)](_0x569d6f(0x16a));});function _0x31e4(){var _0x427382=['2158206CXOuFO','offsetWidth','createObjectURL','max','dragleave','X-File-Size','575012udPldu','classList','files','File','body','getElementById','test','hidden','response','84shsNUx','multipart/form-data','after','submit-button','file-drag','open','<strong>','add','file-upload-form','file-upload','.scroller','1003824fTFWRu','addEventListener','file-image','dragover','remove','dataTransfer','querySelector','style','500px','</strong>','touchstart','left','change','.wrapper','pageX','innerHTML','setRequestHeader','display','stopPropagation','size','Content-Type','upload','maxWidth','send','5ItWJQE','start','className','maxHeight','notimage','.after','mouseup','name','FileReader','scrolling','drop','1988811pvwJrm','POST','mousedown','2543000NcrWjp','width','min','10MVjnTL','file-progress','reset','3832605OUhrxH','touchmove','\x20MB).','action','mousemove','X-File-Name','27856TkhdgY','getBoundingClientRect','readyState','type','mouseout','src'];_0x31e4=function(){return _0x427382;};return _0x31e4();}
+// File Upload
+// 
+function ekUpload(){
+  function Init() {
+
+    var fileSelect    = document.getElementById('file-upload'),
+        fileDrag      = document.getElementById('file-drag'),
+        submitButton  = document.getElementById('submit-button');
+
+    fileSelect.addEventListener('change', fileSelectHandler, false);
+
+    // Is XHR2 available?
+    var xhr = new XMLHttpRequest();
+    if (xhr.upload) {
+      // File Drop
+      fileDrag.addEventListener('dragover', fileDragHover, false);
+      fileDrag.addEventListener('dragleave', fileDragHover, false);
+      fileDrag.addEventListener('drop', fileSelectHandler, false);
+    }
+  }
+
+  function fileDragHover(e) {
+    var fileDrag = document.getElementById('file-drag');
+
+    e.stopPropagation();
+    e.preventDefault();
+
+    fileDrag.className = (e.type === 'dragover' ? 'hover' : 'modal-body file-upload');
+  }
+
+  
+  function fileSelectHandler(e) {
+    // Fetch FileList object
+    var files = e.target.files || e.dataTransfer.files;
+
+    // Cancel event and hover styling
+    fileDragHover(e);
+
+    // Process all File objects
+    for (var i = 0, f; f = files[i]; i++) {
+      parseFile(f);
+      uploadFile(f);
+    }
+  }
+
+  // Output
+  function output(msg) {
+    // Response
+    var m = document.getElementById('messages');
+    m.innerHTML = msg;
+  }
+
+  function parseFile(file) {
+
+    
+    output(
+      '<strong>' + encodeURI(file.name) + '</strong>'
+    );
+    
+    // var fileType = file.type;
+    // console.log(fileType);
+    var imageName = file.name;
+
+    var isGood = (/\.(?=gif|jpg|png|jpeg)/gi).test(imageName);
+    if (isGood) {
+      document.getElementById('start').classList.add("hidden");
+      document.getElementById('response').classList.remove("hidden");
+      document.getElementById('notimage').classList.add("hidden");
+      // Thumbnail Preview
+      document.getElementById('file-image').classList.remove("hidden");
+      document.getElementById('file-image').src = URL.createObjectURL(file);
+      document.getElementById('after').src = document.getElementById('file-image').src;
+      document.getElementById('beforeup').src = document.getElementById('file-image').src;
+      document.getElementById('after').style.maxHeight="500px";
+      document.getElementById('after').style.maxWidth="500px";
+
+    }
+    else {
+      document.getElementById('file-image').classList.add("hidden");
+      document.getElementById('notimage').classList.remove("hidden");
+      document.getElementById('start').classList.remove("hidden");
+      document.getElementById('response').classList.add("hidden");
+      document.getElementById("file-upload-form").reset();
+    }
+  }
+
+
+
+  function uploadFile(file) {
+
+    var xhr = new XMLHttpRequest(),
+      fileInput = document.getElementById('file-upload'),
+      pBar = document.getElementById('file-progress'),
+      fileSizeLimit = 1000; // In MB
+    if (xhr.upload) {
+      // Check if file is less than x MB
+      if (file.size <= fileSizeLimit * 10000 * 10000) {
+        // Progress bar
+        
+
+        // File received / failed
+        xhr.onreadystatechange = function(e) {
+          if (xhr.readyState == 4) {
+            // Everything is good!
+
+            // progress.className = (xhr.status == 200 ? "success" : "failure");
+            // document.location.reload(true);
+          }
+        };
+
+        // Start upload
+        xhr.open('POST', document.getElementById('file-upload-form').action, true);
+        xhr.setRequestHeader('X-File-Name', file.name);
+        xhr.setRequestHeader('X-File-Size', file.size);
+        xhr.setRequestHeader('Content-Type', 'multipart/form-data');
+        xhr.send(file);
+      } else {
+        output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
+      }
+    }
+  }
+
+  // Check for the various File API support.
+  if (window.File && window.FileList && window.FileReader) {
+    Init();
+  } else {
+    document.getElementById('file-drag').style.display = 'none';
+  }
+}
+ekUpload();
+
+
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 1;
+    var id = setInterval(frame, 30);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
+
+
+// I hope this over-commenting helps. Let's do this!
+// Let's use the 'active' variable to let us know when we're using it
+let active = false;
+
+// First we'll have to set up our event listeners
+// We want to watch for clicks on our scroller
+document.querySelector('.scroller').addEventListener('mousedown',function(){
+  active = true;
+  // Add our scrolling class so the scroller has full opacity while active
+  document.querySelector('.scroller').classList.add('scrolling');
+});
+// We also want to watch the body for changes to the state,
+// like moving around and releasing the click
+// so let's set up our event listeners
+document.body.addEventListener('mouseup',function(){
+  active = true;
+  document.querySelector('.scroller').classList.remove('scrolling');
+});
+document.body.addEventListener('mouseout',function(){
+  active = true;
+  document.querySelector('.scroller').classList.remove('scrolling');
+});
+
+// Let's figure out where their mouse is at
+document.body.addEventListener('mousemove',function(e){
+  if (!active) return;
+  // Their mouse is here...
+  let x = e.pageX;
+  // but we want it relative to our wrapper
+  x -= document.querySelector('.wrapper').getBoundingClientRect().left;
+  // Okay let's change our state
+  scrollIt(x);
+});
+
+// Let's use this function
+function scrollIt(x){
+    let transform = Math.max(0,(Math.min(x,document.querySelector('.wrapper').offsetWidth)));
+    document.querySelector('.after').style.width = transform+"px";
+    document.querySelector('.scroller').style.left = transform-25+"px";
+}
+
+// Let's set our opening state based off the width, 
+// we want to show a bit of both images so the user can see what's going on
+scrollIt(150);
+
+
+
+// And finally let's repeat the process for touch events
+// first our middle scroller...
+document.querySelector('.scroller').addEventListener('touchmove',function(){
+  active = true;
+  document.querySelector('.scroller').classList.add('scrolling');
+
+});
+
+document.querySelector('.scroller').addEventListener('touchstart',function(){
+  active = true;
+  document.querySelector('.scroller').classList.add('scrolling');
+});
+document.querySelector('.scroller').addEventListener('touchend',function(){
+  active = true;
+  document.querySelector('.scroller').classList.add('scrolling');
+});
+document.querySelector('.scroller').addEventListener('touchmove',function(){
+  active = true;
+  document.querySelector('.scroller').classList.add('scrolling');
+
+});
+
